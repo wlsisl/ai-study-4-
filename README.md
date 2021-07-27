@@ -37,4 +37,26 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
  + 확장 기능을 이용한 unpacking:변수에 '(asterisk)기호를 붙이면 tuple에 포함된 데이터 개수와 상관없이 unpacking가능   
 
 - tuple비교:tuple간의 비교는 크기 비교가 아니고 원소의 수 (길이)비교   
-- tuple도 반복자(literator)를 포함하고 있다. 
+
+> t1,t2,t3를 지정하고 f1>t2 처럼 관계연산자를 사용하여 참 거짓을 출력하는 것
+
+- tuple도 반복자(literator)를 포함하고 있다.  
+
+<h4>2.list</h4>
+
+- 여러 값을 저장하는 sequence자료형   
+- list는 **가변(mutable) 자료형**   
+- list는 파이썬 스크립트 작성시 가장 많이 활용하는 sequence자료형  
+- list생성 방법   
+  + [] 대괄호를 이용하여 생성   
+  + list()함수를 이용한 생성   
+ 
+- sequence자료형 공통 연산- list  
+  + indexing   
+  + slicing   
+  + 길이 계산   
+  + 포함 유무 확인   
+  + 연결   
+  + 포함
+
+- 
