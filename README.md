@@ -44,7 +44,7 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
 
 - tuple도 반복자(literator)를 포함하고 있다.  
 
-<h4>2.list</h4>
+<h2>2.list</h2>
 
 - 여러 값을 저장하는 sequence자료형   
 - list는 **가변(mutable) 자료형**   
