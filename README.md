@@ -55,8 +55,52 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
   + indexing   
   + slicing   
   + 길이 계산   
-  + 포함 유무 확인   
-  + 연결   
+  + 포함 유무 확인('py' in l)   
+  + 연결(l=l+[1,2,3,]),반복(l*3)   
   + 포함
 
-- 
+- 중첩 list: list에 list를 요소로 포함하여 구성하는 방법
+
+- list 메서드(method)   
+  + append(): list 마지막 요소로 값을 추가할 때 사용하는 메서드   
+  + insert():원하는 위치에 값을 추가할 때 사용하는 메서드(ex: l.list(3,'땡땡') )   
+  + slicing기능을 이용하여 list요소 내용을 변경할 수 있다. 
+  + 삭제
+    
+    1. del명령-> del l[0]  
+       indexing이나 slicing을 이용하여 원하는 위치의 값 삭제
+       
+    2. remove()메서드 -> l.remove(100)
+       list에서 지정된 값을 검색해서 삭제
+       
+       검색할 값이 여러 개인 경우에는 처음 찾은 값만 삭제하는 것이다.
+       
+       검색 실패시 예외발생   
+    
+    3. pop()메서드 -> l.pop()
+    
+       list의 마지막 요소를 삭제
+       
+       삭제한 값을 반환한다.( print(f'remove data : {value}') )
+       자료구조 종류중에 stack(스택)
+           LIFO( last in first out,후입선출) 구조의 자료구조   
+           한 방향으로 입력과 추력을 수행   
+           주로 임ㅇ시 데이터 저장용으로 사용
+           
+    4. clear()메서드:list전체 삭제   
+
+  + index()   
+    1. 데이터 검색하여 index반환   
+    2. 중복된 데이터에 대해서는 먼저 검색된 데이터의 index반환   
+    3. 검색 실패시 예외 발생 
+
+  + count():원하는 값의 개수 파악하는 메서드   
+  + osrt(정렬)
+
+    1. 데이터를 기준에 따라 순서대로 나열하는 Algorithm   
+    2. sort(정렬) Algorithm
+         정렬 키: 정렬을 하기 위한 기준 값   
+         정렬 방향: 작은 ㅇ값에서 큰값순 정렬(Ascending),큰 값에서 작은값순 정렬(Descending)   
+    3. sort()메서드:list전체를 내부적으로 (in place)로 정렬   
+    4. sorted()함수: list전체를 정렬한 복사본 반환
+    5. 
