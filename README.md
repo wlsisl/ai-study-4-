@@ -21,7 +21,8 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
 - 연결   
 - 반복   
 
-- 중첩 tuple   
+- 중첩 tuple
+   
  + tuple의 요소가 tuple인 형태   
  + 중첩 tuple을 구성한 경우 tuple의 요소가 tuple이므로 indexing을 중첩해서 사용해야한다.   
  
@@ -31,7 +32,8 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
 
 - tuple을 이용하여 여러값을 변수에 치환   
 - tuple을 이용한 두 변수의 내용 교환   
-- tuple을 이용한 packing과 unpacking   
+- tuple을 이용한 packing과 unpacking
+   
  + packing:하나의 변수에 여러값을 저장하는 방법   
  + unpacking:하나의 변수의 내용을 여러 변수에 나누어 저장하는 방법   
  + 확장 기능을 이용한 unpacking:변수에 '(asterisk)기호를 붙이면 tuple에 포함된 데이터 개수와 상관없이 unpacking가능   
@@ -95,7 +97,7 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
     3. 검색 실패시 예외 발생 
 
   + count():원하는 값의 개수 파악하는 메서드   
-  + osrt(정렬)
+  + osrt(정렬)-> l_sorted=sorted(l)
 
     1. 데이터를 기준에 따라 순서대로 나열하는 Algorithm   
     2. sort(정렬) Algorithm
@@ -103,4 +105,4 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
          정렬 방향: 작은 ㅇ값에서 큰값순 정렬(Ascending),큰 값에서 작은값순 정렬(Descending)   
     3. sort()메서드:list전체를 내부적으로 (in place)로 정렬   
     4. sorted()함수: list전체를 정렬한 복사본 반환
-    5. 
+   
