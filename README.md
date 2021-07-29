@@ -97,7 +97,7 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
     3. 검색 실패시 예외 발생 
 
   + count():원하는 값의 개수 파악하는 메서드   
-  + osrt(정렬)-> l_sorted=sorted(l)
+  + sort(정렬)-> l_sorted=sorted(l)
 
     1. 데이터를 기준에 따라 순서대로 나열하는 Algorithm   
     2. sort(정렬) Algorithm
