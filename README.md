@@ -106,5 +106,20 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
     3. sort()메서드:list전체를 내부적으로 (in place)로 정렬   
     4. sorted()함수: list전체를 정렬한 복사본 반환
 
+   + list복사
+    
+    1. slicing을 이용한 복사:list 전체를 복사할 때 전체 슬라이싱[:] 방법을 이용하여 복사한다.   
+    2. copy()메서드를 이용한 복사   
+    3. list()함수를 이용한 복사   
+    4. 얕은 복사(shallow copy):중첩 list를 복사할 때 내부의 list id 만 복사되는 경우   
+      -> 중첩 list를 복사할 때 내부의 list id만 복사되는 경우   
+      -> 일반적인 list복사 방법을 적용할 때 발생
+      
+    5. 깊은복사(deep copy)
+      -> 중첩 list복사할 때 내부의 list가 별도로 복사되는 경우   
+      -> copy 모듈의 deepcopy()함수를 사용하여 복사
+      
+    + list 비교: 비교대상 list의 같은 index내용을 비교하고 비교결과가 다를 때 길이를 가지고 비교 결과를 결정한다. 
+
 
    
