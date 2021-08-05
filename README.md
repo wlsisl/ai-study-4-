@@ -105,4 +105,6 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
          정렬 방향: 작은 ㅇ값에서 큰값순 정렬(Ascending),큰 값에서 작은값순 정렬(Descending)   
     3. sort()메서드:list전체를 내부적으로 (in place)로 정렬   
     4. sorted()함수: list전체를 정렬한 복사본 반환
+
+
    
